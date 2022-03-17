@@ -4,7 +4,7 @@
 
 
 
-	// Check For Submit
+	//h Check For Submit
 	if(isset($_POST['submit'])){
 		// Get form data
 		$lname = mysqli_real_escape_string($conn,$_POST['lname']);
